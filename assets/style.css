@@ -130,3 +130,48 @@
         transform: rotate(1turn);
     }
 }
+
+.ex-11-icon:hover {
+    animation: spinslowreverse 2s linear;
+}
+@keyframes spinslowreverse {
+    0% {
+        transform: rotate(0);
+    }
+    80% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: moveTop 2s linear;
+}
+@keyframes moveTop {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: moveBottom 2s linear;
+}
+@keyframes moveBottom {
+    0% {
+        right: 10%;
+    }
+    50% { 
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 10%;
+    }
+}

@@ -79,3 +79,9 @@
     transition: 3s;
     width: 100%;
 }
+
+.ex-3-square:hover {
+    transition: 3s;
+    border-radius: 100%;
+}
+

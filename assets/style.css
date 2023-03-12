@@ -101,6 +101,12 @@
 }
 
 .ex-6-img:hover {
-    transition: 5s;
     filter: grayscale();
 }
+
+.ex-7-img:hover {
+    transition: 5s;
+    filter: invert() grayscale(1);
+}
+
+

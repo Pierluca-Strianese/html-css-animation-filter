@@ -89,3 +89,18 @@
     transition: 3s;
     opacity: 0%;
 }
+
+.ex-5-square:hover {
+    transition: 3s;
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transition: 3s;
+    transform: scale(0.5);
+}
+
+.ex-6-img:hover {
+    transition: 5s;
+    filter: grayscale();
+}

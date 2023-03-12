@@ -85,3 +85,7 @@
     border-radius: 100%;
 }
 
+.ex-4-square:hover {
+    transition: 3s;
+    opacity: 0%;
+}

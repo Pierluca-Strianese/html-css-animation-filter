@@ -109,4 +109,15 @@
     filter: invert() grayscale(1);
 }
 
+.ex-8-img:hover {
+    transition: 5s;
+    filter: grayscale(1) sepia(.5);
+    border-radius: 40px;
+}
 
+.ex-9-img:hover {
+    transition: 5s;
+    filter: grayscale(1) sepia(.5);
+    border-radius: 40px;
+    transform: scale(1.4);
+}
